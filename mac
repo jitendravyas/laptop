@@ -107,14 +107,10 @@ fancy_echo "Installing Postgres, a good open source relational database ..."
 fancy_echo "Installing Redis, a good key-value database ..."
   brew_install_or_upgrade 'redis'
 
-fancy_echo "Installing reattach-to-user-namespace, for copy-paste and RubyMotion compatibility with tmux ..."
-  brew_install_or_upgrade 'reattach-to-user-namespace'
 
 fancy_echo "Installing ImageMagick, to crop and resize images ..."
   brew_install_or_upgrade 'imagemagick'
 
-fancy_echo "Installing watch, to execute a program periodically and show the output ..."
-  brew_install_or_upgrade 'watch'
 
 node_version="0.10"
 
